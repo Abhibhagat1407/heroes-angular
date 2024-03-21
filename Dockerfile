@@ -4,7 +4,7 @@ WORKDIR /usr/src/app
 
 # Client App
 FROM node-layer as client-app
-LABEL authors="John Papa"
+LABEL authors="Abhishek"
 WORKDIR /usr/src/app
 COPY ["package.json", "npm-shrinkwrap.json*", "./"]
 RUN npm install --silent
