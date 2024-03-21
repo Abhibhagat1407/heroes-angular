@@ -37,13 +37,13 @@ pipeline {
             }
         }
         
-        // Add other stages as needed
+      
     }
     
     post {
         failure {
             echo 'Pipeline failed'
-            // Add any failure handling steps here
+            
         }
     }
 }
